@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SyncFolders": {
+      "commandName": "Project",
+      "commandLineArgs": "from=\"D:\\source\" to=\"D:\\distance\" interval=10 log=\"d:\\sync_folders.log\""
+    }
+  }
+}
