@@ -84,7 +84,7 @@
                     intervalSec = IntervalDefaultSec;
                 }
             }
-            catch (FormatException e)
+            catch (FormatException)
             {
                 Console.WriteLine($"Incorrect interval value: {str}\ninterval is > 0 in sec.");
                 return false;
